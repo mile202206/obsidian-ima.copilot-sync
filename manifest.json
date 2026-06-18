@@ -1,0 +1,10 @@
+{
+	"id": "ima-copilot-sync-mile",
+	"name": "ima.copilot Sync (Mile Security",
+	"version": "6.3.1-sec",
+	"minAppVersion": "1.11.4",
+	"description": "Sync notes from IMA knowledge base to Obsidian. Security-optimized fork: headless browser off by default, safety confirmation on enable.",
+	"author": "mile202206 (forked from chenxiccc)",
+	"authorUrl": "https://github.com/mile202206/obsidian-ima.copilot-sync",
+	"isDesktopOnly": false
+}
