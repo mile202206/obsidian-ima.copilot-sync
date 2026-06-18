@@ -1,0 +1,30 @@
+{
+	"name": "ima-copilot-sync",
+	"version": "6.3.1-sec",
+	"description": "Sync notes from IMA knowledge base to Obsidian (Mile security fork — headless browser off by default)",
+	"main": "main.js",
+	"type": "module",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"version": "node scripts/sync-version.cjs",
+		"lint": "eslint src/"
+	},
+	"keywords": [],
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^16.18.126",
+		"esbuild": "0.25.5",
+		"eslint": "^9.39.4",
+		"eslint-plugin-obsidianmd": "^0.3.0",
+		"globals": "^17.6.0",
+		"jiti": "^2.7.0",
+		"tslib": "2.4.0",
+		"typescript": "^5.8.3",
+		"typescript-eslint": "^8.60.0"
+	},
+	"dependencies": {
+		"defuddle": "^0.18.1",
+		"obsidian": "latest"
+	}
+}
